@@ -49,6 +49,10 @@ span{
   border: 2px dashed white;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 /*HEADER*/ /*PRIMA SEZIONE*/
 header .box-nav {
   display: flex;
