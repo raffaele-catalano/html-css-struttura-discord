@@ -12,16 +12,18 @@ body {
   font-weight: bold;
 }
 
+span{
+  text-transform: capitalize;
+}
+
 .container {
   display: flex;
-  align-content: center;
   width: 70%;
   height: 600px;
 }
 
 .container-reverse {
   display: flex;
-  align-content: center;
   flex-direction: row-reverse;
   width: 70%;
   height: 600px;
@@ -29,14 +31,12 @@ body {
 
 .container-bigger {
   display: flex;
-  align-content: center;
   width: 70%;
   height: 700px;
 }
 
 .container-dark {
   display: flex;
-  align-content: center;
   width: 70%;
   height: 600px;
 }
@@ -95,6 +95,7 @@ header .box-nav .link ul {
 header .box-nav .link ul li {
   margin-right: 15px;
 }
+
 header .box-nav .link ul li a {
   text-decoration: none;
   color: rgb(0, 119, 255);
@@ -134,7 +135,6 @@ main .first-section {
   justify-content: center;
   width: 100%;
   height: 600px;
-  margin: 0 auto;
 }
 
 main .big-box {
@@ -158,7 +158,6 @@ main .second-section {
   justify-content: center;
   width: 100%;
   height: 600px;
-  margin: 0 auto;
   background-color: #cecece;
 }
 
@@ -167,7 +166,6 @@ main .third-section {
   justify-content: center;
   width: 100%;
   height: 600px;
-  margin: 0 auto;
 }
 
 main .larger-section {
@@ -175,7 +173,6 @@ main .larger-section {
   justify-content: center;
   width: 100%;
   height: 700px;
-  margin: 0 auto;
   background-color: #cecece;
 }
 
@@ -193,7 +190,6 @@ footer .footer-navigation {
   justify-content: center;
   width: 100%;
   height: 600px;
-  margin: 0 auto;
   background-color: #23272A;
   border-bottom: 3px solid #cecece;
 }
@@ -223,10 +219,8 @@ footer .smaller-box {
 
 footer .footer-end {
   display: flex;
-  align-content: center;
   width: 100%;
   height: 100px;
-  margin: 0 auto;
   background-color: #23272A;
 }
 
