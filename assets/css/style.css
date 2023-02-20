@@ -12,8 +12,41 @@ body {
   font-weight: bold;
 }
 
+.container {
+  display: flex;
+  align-content: center;
+  width: 70%;
+  height: 600px;
+}
+
+.container-reverse {
+  display: flex;
+  align-content: center;
+  flex-direction: row-reverse;
+  width: 70%;
+  height: 600px;
+}
+
+.container-bigger {
+  display: flex;
+  align-content: center;
+  width: 70%;
+  height: 700px;
+}
+
+.container-dark {
+  display: flex;
+  align-content: center;
+  width: 70%;
+  height: 600px;
+}
+
 .border {
   border: 2px dashed black;
+}
+
+.border-white {
+  border: 2px dashed white;
 }
 
 /*HEADER*/ /*PRIMA SEZIONE*/
@@ -42,6 +75,7 @@ header .box-nav .logo {
   align-items: center;
   width: 20%;
   height: 50px;
+  padding-left: 5px;
 }
 
 header .box-nav .link {
@@ -59,7 +93,7 @@ header .box-nav .link ul {
 }
 
 header .box-nav .link ul li {
-  margin-right: 10px;
+  margin-right: 15px;
 }
 header .box-nav .link ul li a {
   text-decoration: none;
@@ -72,6 +106,7 @@ header .box-nav .login {
   justify-content: end;
   width: 20%;
   height: 50px;
+  padding-right: 5px;
 }
 
 /*HEADER*/ /*SECONDA SEZIONE*/
@@ -99,7 +134,6 @@ main .first-section {
   width: 100%;
   height: 600px;
   margin: 0 auto;
-  background-color: red;
 }
 
 main .big-box {
@@ -127,43 +161,19 @@ main .second-section {
   background-color: #cecece;
 }
 
-.container {
-  display: flex;
-  align-content: center;
-  width: 70%;
-  height: 600px;
-}
-
-.container-reverse {
-  display: flex;
-  align-content: center;
-  flex-direction: row-reverse;
-  width: 70%;
-  height: 600px;
-}
-
-.container-bigger {
-  display: flex;
-  align-content: center;
-  flex-direction: row-reverse;
-  width: 70%;
-  height: 800px;
-}
-
 main .third-section {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 600px;
   margin: 0 auto;
-  background-color: red;
 }
 
 main .larger-section {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 800px;
+  height: 700px;
   margin: 0 auto;
   background-color: #cecece;
 }
@@ -178,3 +188,60 @@ main .larger-box {
 }
 
 /*FOOTER*/
+footer .footer-navigation {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #23272A;
+  border-bottom: 3px solid #cecece;
+}
+
+footer .bigger-box {
+  display: flex;
+  align-self: center;
+  width: 30%;
+  height: 500px;
+  background-color: #F08080;
+}
+
+footer .smaller-box-container {
+  display: flex;
+  align-self: center;
+  width: 70%;
+  height: 500px;
+  background-color: #20B2AA;
+}
+
+footer .smaller-box {
+  display: flex;
+  align-self: center;
+  width: calc(100% / 4);
+  height: 500px;
+}
+
+footer .footer-end {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #23272A;
+}
+
+footer nav:last-child {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 75px;
+  margin: 0 auto;
+  background-color: #7FFFD4;
+}
+
+footer nav:last-child div {
+  background-color: #FFB6C1;
+  padding: 5px;
+}
