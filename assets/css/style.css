@@ -31,10 +31,14 @@ body {
   height: 700px;
 }
 
-.darkbg {
+.dark-bg {
   display: flex;
   width: 70%;
   height: 600px;
+}
+
+.grey-bg {
+  background-color: #cecece;
 }
 
 .border {
@@ -88,14 +92,14 @@ header .menu ul li a{
 }
 
 /*MAIN*/ 
-main .first-section {
+main section {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 600px;
 }
 
-main .big-box {
+main .image-box {
   display: flex;
   align-self: center;
   min-width: 70%;
@@ -103,7 +107,7 @@ main .big-box {
   background-color: #1E90FF;
 }
 
-main .small-box {
+main .text-box {
   display: flex;
   align-self: center;
   width: 30%;
@@ -111,27 +115,11 @@ main .small-box {
   background-color: #FFC0CB;
 }
 
-main .second-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 600px;
-  background-color: #cecece;
-}
-
-main .third-section {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 600px;
-}
-
-main .larger-section {
+main .larger {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 700px;
-  background-color: #cecece;
 }
 
 main .larger-box {
@@ -143,7 +131,7 @@ main .larger-box {
 }
 
 /*FOOTER*/
-footer .footer-navigation {
+footer .top {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -160,7 +148,7 @@ footer .bigger-box {
   background-color: #F08080;
 }
 
-footer .smaller-box-container {
+footer .menu-box-container {
   display: flex;
   align-self: center;
   width: 70%;
@@ -168,14 +156,14 @@ footer .smaller-box-container {
   background-color: #20B2AA;
 }
 
-footer .smaller-box {
+footer .menu-box {
   display: flex;
   align-self: center;
   width: calc(100% / 4);
   height: 500px;
 }
 
-footer .footer-end {
+footer .bottom {
   display: flex;
   width: 100%;
   height: 100px;
@@ -193,7 +181,7 @@ footer nav:last-child {
   background-color: #7FFFD4;
 }
 
-footer nav:last-child div {
+footer .logo, .button {
   background-color: #FFB6C1;
   padding: 5px;
 }
